@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+   
+        <title>IITM jankpuri</title>
+        <link rel="stylesheet" href="/css/style.css">
+    
+        <script src="https://kit.fontawesome.com/00f0e4ec08.js" crossorigin="vishal"></script>
+        <link rel="icon" type="image/x-icon" href="image/logo.png">
+    </head>
+<body>
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+            <div class="nav_links" id="navlinks_id">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+    <!-- contact us -->
+
+  
+    <section class="contact_us">
+        <div class="row">
+            <div class="contact_col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>jankpuri institutional area , IITM D-21</h5>
+                        <p>sagarpur, jankpuri, IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+91 1234567890</h5>
+                        <p>Monday to Saturday, 10AM to 6PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>thisisemail@mail.com< /h5>
+                        <p>Email us for any querry</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact_col">
+                <form action="">
+                    <input type="text" placeholder="Enter you name" required>
+                    <input type="email" placeholder="Enter you email" required>
+                    <input type="subject" placeholder="Enter you subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero_btn red_btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    
+    <section class="foter">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At aut necessitatibus officiis praesentium quasi corrupti hic, autem non consequatur esse deleniti impedit nulla et odit.</p>
+        <div class="icon">
+            <i class="fa fa-facebook fa-2x"></i>
+            <i class="fa fa-instagram fa-2x"></i>
+            <i class="fa fa-twitter fa-2x"></i>
+            <i class="fa fa-linkedin fa-2x"></i>
+        </div>
+    </section>
+
+
+
+
+    <script>
+        var navlinks_id = document.getElementById("navlinks_id");
+        function showmenu() {
+            navlinks_id.style.right = "0";
+        }
+        function hidemenu() {
+            navlinks_id.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
